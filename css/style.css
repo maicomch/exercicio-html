@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+}
+body {
+  width: 100vw;
+  height: 10vh;
+}
+.cabecalho {
+  width: 200rem;
+  height: 100%;
+  background-color: #000000;
+}
