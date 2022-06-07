@@ -5,35 +5,45 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text" href="/css/style.css">
-  <title>Pagina inicial</title>
+  <link rel="stylesheet" href="/css/page1.css">
+  <title>Barbearia</title>
 </head>
 
 <body>
   <header class="cabecalho">
     <div class="cabecalho-logo">
-      > <img src="/imagem/Logotipo de barbearia com caveira.jpg">
+      <img src="/imagem/Logotipo de barbearia com caveira.jpg">
     </div>
     <nav class="menu">
       <ul>
-        <li><a href="/pagina1.html">Inicio</a></li>
-        <ul>
-          <li><a href="/pagina2.html">Sobre nós </a></li>
-          <ul>
-            <li><a href="/pagina3.html">Nossos cortes</a></li>
-            <ul>
-              <li><a href="/pagina4.html">Contato</a></li>
+        <li><a href="/pagina1.html"><a href="#Home">Home</a></a></li>
+        <li><a href="#Sobre">Sobre</a></li>
+        <li><a href="/pagina2.html">Serviços</a></li>
+        <li><a href="/pagina3.html">Contato</a></li>
     </nav>
   </header>
-  <main>
-    <img src="/imagem/barbearia.jpg" alt="logo">
+  <main class="main">
+    <section id="Home">
+      <div class="imagem">
+        <img src="/imagem/equipamento.jpg" alt="equipamento">
+      </div>
+    </section>
+    <section id="Sobre">
+      <div class="conteudo">
+        <h2 class="sub-texto">Sobre</h2>
+        <p class="paragrafo">UM NOVO CONCEITO DE BARBEARIA,
+          <br> ONDE PASSADO E FUTURO SE UNEM,
+          <br> TRADIÇÃO E MODERNIDADE SE ENCONTRAM,
+          <br> CONSERVADORISMO E TENDÊNCIAS COEXISTEM
+        </p>
+      </div>
+    </section>
   </main>
-  <footer>
+  <footer class="rodape">
     <a href="#"><img src="/imagem/linkedin.png" alt="linkedin"></a>
     <a href="#"> <img src="/imagem/instagram (1).png" alt="instagram">
     </a>
   </footer>
-
 </body>
 
 </html>
